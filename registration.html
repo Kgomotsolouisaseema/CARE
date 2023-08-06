@@ -4,42 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>C.A.R.E.</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <img src="logo2.png" alt="logo">
+            <img src="assets/logo2.png" alt="logo">
         </header>
-       <form action="">
-        <h2>User Registration</h2>
-        <label for="name">Name</label><input type="text">
-        <label for="surname">Surname</label><input type="text">
-        <label for="alias">Alias</label><input type="text">
-        <label for="contact">Contact</label><input type="number">
-        <div>
-            <h3>Incase of Emergency</h3>
-            <div>
-                <h5>Person 1</h5>
-                <input type="text" placeholder="Name">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Relationship">
-            </div>
-            <div>
-                <h5>Person 2</h5>
-                <input type="text" placeholder="Name">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Relationship">
-            </div>
-            <div>
-                <h5>Person 3</h5>
-                <input type="text" placeholder="Name">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Relationship">
-            </div>
-            <div>
-                <button>Link to wearable</button>
-                <button>Submit</button>
-            </div>
-        </div>
-       </form> 
+    <body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form>
+        <label for="username">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="contact">Contact Number:</label>
+        <input type="alphanumeric" id="number" name="number" required>
+
+        <label for="alias">Alias:</label>
+        <input type="text" id="alias" name="alias" required>
+
+        <label for="name">ICE Person 1:</label>
+        <input type="text" id="ice-one" name="ice-one" required>
+
+        <label for="name">ICE Person 2:</label>
+        <input type="text" id="ice-two" name="ice-two" required>
+
+        <label for="name">ICE Person 3:</label>
+        <input type="text" id="ice-three" name="ice-three" required>
+
+        <button type="submit"><a href="#">Link to wearable</a></button>
+        <button type="submit"><a href="dashboard.html">Register</a></button>
+
+        </form>
+    </div>
     </body>
-</html>
+    </html>
+
