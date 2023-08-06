@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header{
+    height: 250px;
+    background-color: #FFF1ED;
+}
+header img{
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 15px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+        "a a a"
+        "b b c"
+        "d d e"
+        "f f e"
+    ;
+    padding: 10px;
+}
+.user-details{
+    border: 3px solid pink;
+    grid-area: a;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    color: rgb(47, 47, 87);
+}
+.map-section{
+    border: 3px solid pink;
+    grid-area: b;
+    height: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 1100px;
+
+}
+.map img{
+    height: 320px;
+    width: 1050px;
+    margin: 20px;
+}
+.hotspot{
+    border: 3px solid pink;
+    grid-area: c;
+    height: 300px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 300px;
+}
+.hotspot-text{
+     padding: 20px;
+     margin-top: 20px;
+     font-size: 18px;
+     color: rgb(47, 47, 87);
+}
+.hotspot-text h2{
+    padding-bottom: 10px;
+}
+.heart-det{
+    border: 3px solid pink;
+    grid-area: d;
+    height: 130px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 1100px;
+}
+.pressure-det{
+    border: 3px solid pink;
+    grid-area: f;
+    height: 130px;
+    width: 1100px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.status-read{
+    border: 3px solid pink;
+    grid-area: e;
+    height: 330px;
+    margin: 10px;
+    border-radius: 20px;
+    margin-top: -40px;
+}
+.user-dets{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.user-details p{
+    margin: 0px 10px;
+    width: 350px;
+
+}
+.user-details h3{
+    padding: 30px;
+    font-size: 20px;
+}
+.ice-dets h4{
+    padding: 3px;
+    font-size: 18px;
+    margin-left: 48px;
+}
+.kin-dets{
+    display: flex;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.kin-dets h4{
+    margin-left: -3px;
+    font-size: 16px;
+}
+.rates{
+    font-size: 50px;
+    margin: 40px;
+    color: rgb(47, 47, 87);
+}
+form{
+    border: 2px solid #FFF1ED;
+    margin: 50px 200px;
+}
+.form-user{
+    display: flex;
+    margin: 50px 340px;
+    justify-content: space-around;
+}
+.ice-info{
+
+}
+.link-btn{
+
+}
+.submit-btn{
+
+}
+.status-info{
+     padding: 20px;
+     margin-top: 20px;
+     font-size: 22px;
+     color: rgb(47, 47, 87);
+}
+.status-info h2{
+    padding-bottom: 15px;
+}
+.status-info h3{
+    color: rgb(23, 188, 17);
+    font-size: 45px;
+}
+.status-info button{
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: red;
+}
+h1{
+    font-size: 52px;
+    margin-left: 550px;
+    padding-top: 40px;
+    color: rgb(47, 47, 87);
+
+}
