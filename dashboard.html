@@ -4,50 +4,77 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>C.A.R.E.</title>
+
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script type="module" src="./index.js"></script>
+
     </head>
     <body>
         <header>
-            <img src="logo2.png" alt="logo">
+            <img src="assets/logo1.png
+            " alt="logo">
         </header>
-        <div>
-            <div>
-                <div>
-                    <h5>Welcome (alias)</h5>
-                    <p>Name</p>
-                    <p>Surname</p>
-                    <p>Contact</p>
-                    <h6>In Case of Emergency</h6>
+        <h1>Welcome Dora!</h1>
+        <div class="container">
+            <div class="user-details">
+                <div class="user-dets">
+                    <h4>Name:</h4><p>Amanda</p>
+                    <h4>Surname:</h4><p>Jones</p>
+                    <h4>Contact Number:</h4><p>(+27)64 258 9764</p>
                 </div>
-                <div>
-                    <p>Person 1</p>
-                    <p>Name</p>
-                    <p>Phone Number</p>
-                    <p>Relationship</p>
-                    <p>Person 2</p>
-                    <p>Name</p>
-                    <p>Phone Number</p>
-                    <p>Relationship</p>
-                    <p>Person 3</p>
-                    <p>Name</p>
-                    <p>Phone Number</p>
-                    <p>Relationship</p>
+                <h3>In Case of Emergency (ICE)</h3>
+                <div class="ice-dets">
+                    <h4>Person 1</h4>
+                    <div class="kin-dets">
+                        <h4>Name:</h4><p>Michael Jones</p>
+                        <h4>Contact Number:</h4><p>(+27)64 208 9264</p>
+                        <h4>Relationship:</h4><p>Husband</p>
+                    </div>
+                    <h4>Person 2</h4>
+                    <div class="kin-dets">
+                        <h4>Name:</h4><p>Lethu Zulu</p>
+                        <h4>Contact Number:</h4><p>(+27)64 258 9700</p>
+                        <h4>Relationship:</h4><p>Mother</p>
+                    </div>
+                    <h4>Person 3</h4>
+                    <div class="kin-dets">
+                        <h4>Name:</h4><p>Nathan Zulu</p>
+                        <h4>Contact Number:</h4><p>(+27)72 258 8764</p>
+                        <h4>Relationship:</h4><p>Brother</p>
+                    </div>
                 </div>
             </div>
-            <div>
-                map section
+            <div class="map-section">
+               <div class="map">
+                <img src="assets/map.png" alt="map">
+               </div>
             </div>
-            <div>
-                hotspot
+            <div class="hotspot">
+                <div class="hotspot-text">
+                    <h2>High-risk Area Proximity</h2>
+                    <h3>Current Location:</h3><p>Riversands I-Hub</p>
+                    <h3>High-risk Area:</h3><p>Diepsloot</p>
+                    <h3>Distance from High-risk Area:</h3><p>4.5km</p>
+                </div>
             </div>
-            <div>
-                heart rate
+            <div class="heart-det">
+                <h1 class="rates">Heart Rate: 100 bpm</h1>
             </div>
-            <div>
-                blood pressure
+            <div class="pressure-det">
+                <h1 class="rates">Blood Pressure: 120/80 mm</h1>
             </div>
-            <div>
-                status of reading
+            <div class="status-read">
+                <div class="status-info">
+                    <h2>Alert Trigger Status</h2>
+                    <h3>Secure</h3>
+                    <button>Emergency Alert</button>
+                </div>
             </div>
         </div>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+            defer
+    ></script>
     </body>
 </html>
